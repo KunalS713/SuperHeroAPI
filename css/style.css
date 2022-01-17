@@ -1,0 +1,239 @@
+/*to style the html page*/
+html {
+    height: 100%;
+  }
+  body {
+    background: rgb(49, 18, 88);
+    margin: 0;
+    background-image: linear-gradient(110deg, #312179 20%, #1c487a 100%);
+  }
+  
+  /*to style the head section*/
+  .head{
+    font-size:30px;
+    text-align: center;
+    border-bottom:2px solid repeating-radial-gradient();
+    /* color:blueviolet;*/
+    color: whitesmoke;
+  
+  }
+  
+  /*to style the navigation section*/
+  nav {
+    background-image: linear-gradient(110deg, #312179 20%, #1c487a 100%);
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px;
+  }
+  nav .left {
+    font-size: 18px;
+    font-family:cursive;
+  }
+  /* Home Tag */
+  .hlink img{
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 80px;
+  }
+  /*to style the link section*/
+  .link {
+    text-decoration: none;
+    font-size: 22px;
+    padding: 6px 12px;
+    border-radius: 5px;
+    /* background: #fff; */
+    background: rgb(98, 126, 43);
+    color: whitesmoke;
+    margin-right: 100px;
+  }
+  .link:hover {
+    background: #f1f1f1;
+    color: #000;
+  }
+  
+  /*to style the main section*/
+  #main {
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  
+  /*to style the search section*/
+  #search {
+    width: 85%;
+    margin-left: 60px;
+    border: 2px solid black;
+    height: 50px;
+    font-size: 20px;
+    padding: 15px 10px;
+    padding-left: 55px;
+    border-radius: 50px;
+    background-color:floralwhite;
+  }
+  
+  /*to style the load section*/
+  .load {
+    border: 10px solid;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border-color: black transparent transparent;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: none;
+  }
+  
+  /*to style the list section to be displayed after search*/
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+  .search-result {
+    display: flex;
+    margin-top: 10px;
+    border: 1px solid #e5e5e5;
+    height: 310px;
+    background-color: white;
+    border-radius: 2px;
+  }
+  .search-left img {
+    height: 310px;
+  }
+  .search-right {
+    padding-left: 20px;
+    padding-top: 10px;
+    position: relative;
+  }
+  .search-right a {
+    text-decoration: none;
+    color: #000;
+  }
+  .search-right a:hover {
+    text-decoration: underline;
+  }
+  .name {
+    font-size: 30px;
+  }
+  .full-name {
+    font-size: 20px;
+  }
+  .address {
+    color: gray;
+    font-size: 17px;
+  }
+  .aliases {
+    color: gray;
+    font-size: 17px;
+  }
+  .alter-egos {
+    color: gray;
+    font-size: 17px;
+  }
+  .first-app {
+    color: gray;
+    font-size: 17px;
+  }
+  .publisher {
+    color: gray;
+    font-size: 17px;
+  }
+  .alignment{
+    color: gray;
+    font-size: 17px;
+  }
+  
+  /*to style the btn section*/
+  .btn {
+    margin-top: 20px;
+    color: #fff;
+    outline: none;
+    border: none;
+    padding: 6px;
+    border-radius: 2px;
+    display:right;
+  }
+  .btn:hover {
+    cursor: pointer;
+  }
+  /*to style the add to favourite section*/
+  .add-to-fav {
+    margin-top: 20px;
+    background: #A9F5E1;
+    color:black;
+  }
+  .add-to-fav:hover{
+    background: #04B4AE;
+    color:white;
+  }
+  /*to style the remove from favourite section*/
+  .remove-from-fav {
+    margin-top: 20px;
+    background: #FAAC58;
+    color:black;
+  }
+  .remove-from-fav:hover{
+    background: #FF4000;
+    color:white;
+  }
+  #list {
+    position: fixed;
+    font-size: 40px;
+    top: 50%;
+    right: 30%;
+    color: white;
+    background: orange;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: none;
+  }
+  .list-error {
+    background: #DF3A01;
+  }
+  .list-success {
+    background: #8bc34a;
+  }
+  
+  /*to style the page where details of superhero is to be displayed*/
+  .super-hero-detail {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 434px;
+    padding: 20px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    background: repeating-linear-gradient();
+    color: whitesmoke;
+  }
+  .super-hero-detail img {
+    height: 300px;
+  }
+  .super-hero-detail h1,
+  .super-hero-detail h3 {
+    margin: 0;
+  }
+  .super-hero-detail .power-stats div {
+    border: 1px solid black;
+    padding: 5px 20px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+  }
+  .no-results {
+    background: gray;
+    color: white;
+    padding: 10px;
+    border-radius: 3px;
+    margin-top: 20px;
+  }
+  .noresult{
+    color:white;
+    font-size:30px;
+    text-align: center;
+  }

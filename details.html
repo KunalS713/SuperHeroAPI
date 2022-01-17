@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet"/>
+        <link href="css/style.css" rel="stylesheet" />
+        <title>Superhero</title>
+    </head>
+    <body>
+        <!--div section for head-->
+        <div class="head">
+            <h1>Super Hero Details</h1>
+        </div>
+
+        <!--div section for navigation bar-->
+        <nav>
+            <div class="left">
+                <a href="./index.html" class="hlink"><img src="https://cdn0.iconfinder.com/data/icons/essentials-solid-glyphs-vol-1/100/House-Home-Property-128.png"></a>
+            </div>
+            <div class="right">
+                <a href="./favourites.html" class="link">Favourites</a>
+            </div>
+        </nav>
+
+        <!--section to print the details of superhero-->
+        <div class="load"></div>
+        <div class="super-hero-detail"></div>
+
+        <!--including java scripts file-->
+        <div id="list"></div>
+        <script src="./js/forAll.js"></script>
+        <script src="./js/details.js"></script>
+        <script>SuperHero.init();</script>
+    </body>
+</html>
